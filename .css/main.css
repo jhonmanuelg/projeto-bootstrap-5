@@ -1,0 +1,57 @@
+/* ================================= */
+
+
+/* GLOBAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*==========================MENU=============== */
+
+#manu li>a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form>button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* =========================sLIDER DE IMAGENS=============================== */
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+
+/* =========================sMEDIA QUERIES  TELA GRANDE=============================== */
+
+@media (max-widrh: 768px) {
+    #intro {
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+
+/* =========================sMEDIA QUERIES  TELA PEQUENA=============================== */
+
+@media (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+
+/* =========================sMEDIA QUERIES  TELA EXTR-PEGUENA=============================== */
